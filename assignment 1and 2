@@ -1,0 +1,53 @@
+# finding the general formula:
+10  , 1  , 8 , 3  , 6  , 5  , 4  , 7  , x  ,y   ??
+
+# step1 findig the difference between the numbers :
+
+10  ,  1  ,  8  ,  3  ,  6  ,  5  ,  4  ,  7  ,  x   , y   ??
+--9--- -(-7)-- --4- -(-3)- --1- --1--- -(-3)-
+
+# as the series generate the next x and y have the same difference to generate the series
+
+so 7-x=4:  =>x=3
+    x-y=-7: =>y=10
+general formula of the x and y
+    n-x=4:{#where n is the previous number}
+    n-y=-7:    
+
+# Floor division
+a=9
+b=2
+s=a//b
+print(s)
+a=10
+b=3
+s=a//b
+print(s)
+a=51
+b=7
+s=a//b
+print(s)
+# logical operators
+a=7
+if (a>6 and a>10):# both condition should be true
+    print("yes")
+
+if (a>6 or a>10): # one of the condition should be true
+    print("noo")
+
+
+if (not a==6):# condition should be false for the not logical operator be true
+    print("yes and noo")
+# comparision operators
+
+a=10
+b=5
+if a>b:
+    print("greater")
+if a>=10:
+    print("it is true")
+if b<=9:
+    print("was it true")
+
+if a<90:
+    print("yes it is lesser")
